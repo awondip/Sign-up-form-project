@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(221, 221, 221) 0px 0px 15px 2px;
+}
+
+:root {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    --modal-background-color : #FAFAFA; 
+    --description-form-background-color :#FFF;
+    
+   
+    
+}
+
+.form-body{
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: min(40% 200vh); 
+    height: 10%;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    padding: 348px 100px;
+    padding-right: 20px;
+    margin-left: 2rem;
+    position: static;
+
+}
+
+.form-layout{
+    display: flex;
+    
+ 
+}
+.logo-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  -200px;
+    background: rgba(0, 0, 0, .5);
+    background-size: cover;
+    font-family: Norse;
+    font-size: 3rem;
+    margin-left: -1px;
+    margin-right: -20px;
+    padding: 20px;
+    padding-right: rem;
+}
+
+.logo-bar > img{
+     width: min(80px, 100vh);
+    height: 100px;
+}  
+
+.logo-bar >h1{ 
+    display: block; 
+    flex-direction: row;  
+    color: white;
+    font-size: 60px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5rem;
+}
+
+.description-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: -20px;
+    height: 40%;
+    padding: 2rem 2rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color:var(--modal-background-color);
+
+}
+.description-text{
+    margin-top: 50px;
+    margin-bottom: -5px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-container{
+    background-color: var(--description-form-background-color);
+    width: 100%;
+    box-shadow: 0px 3px 5px -2px rgb(0 0 0 / 50%);
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.display-input-left, .display-input-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+     height: 10%;
+    font-size: 0.8rem;
+    margin-top: -80px;
+    
+
+}
+
+
+.form-container > fieldset{
+    display: flex;
+    padding: 2rem;
+    border: none;
+}
+form input {
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #D6D9DC;
+    width: 130%;
+    
+}
+form input:focus {
+    background-color: rgb(53, 51, 51);
+    color: white;
+    border-color: 1px solid blueviolet;
+
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    top: 0px;
+    margin-top: 1rem;
+
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+     height: 40%;
+    padding-top: 10px;
+    
+}
+
+.display-input {
+    display: flex;
+}
+
+.form-ending {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: var(--modal-background-color);
+    margin-top: -5px;
+    padding: 60px 0px;
+}
+.btn-submit {
+    width: 32%;
+    height: 29%;
+    padding: 0.5rem;
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    word-spacing: normal;
+    text-transform: none;
+    line-height: normal;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(89, 109, 72);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -2rem;
+  
+}
+.btn-submit:active{
+    background-color: black;
+}
+.submit-text{
+    padding: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+span > a {
+    color:rgb(116, 77, 61); ;
+    text-decoration: none;
+
+}
+
+
